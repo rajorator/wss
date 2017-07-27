@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+.gage {
+  margin: .25em;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 300px;
+  height: 240px;
+  float: left;
+}

@@ -12,14 +12,13 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
     <div>
-      
+
       <input type="date" name="datequit" id="datequit" />
       <input type="time" name="timequit" id="timequit" />
     </div>
     <div>
     <% for(var i=0; i < benefits.length; i++) { %>
-
-            <div id="<%= i +"gage"  %>" style="width: 400px; height: 320px; float: left;"> </div>
+            <div id="<%= i +"gage"  %>" class="gage"> </div>
             <script>
                 new JustGage({
                   id: "<%= i %>" + "gage",
